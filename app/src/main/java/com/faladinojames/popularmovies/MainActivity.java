@@ -30,8 +30,8 @@ import butterknife.InjectView;
 
 public class MainActivity extends PopularMovieActivity {
 
-    String url_popularMovies="https://api.themoviedb.org/3/movie/popular?api_key=ce96e400b466b9caa393be6e7b6b1e2f&language=en-US&page=1";
-    String url_highestRated="https://api.themoviedb.org/3/movie/top_rated?api_key=ce96e400b466b9caa393be6e7b6b1e2f&language=en-US&page=1";
+    String url_popularMovies="https://api.themoviedb.org/3/movie/popular?api_key=&language=en-US&page=1";
+    String url_highestRated="https://api.themoviedb.org/3/movie/top_rated?api_key=&language=en-US&page=1";
 
     String currentUrl;
     @InjectView(R.id.mainRecycler)
